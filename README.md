@@ -30,3 +30,8 @@ Browser → Internet → AWS EC2 Instance → Nginx Web Server → Web Page Resp
 2. Connect via SSH
 ```bash
 ssh -i project1.pem ubuntu@<your-public-ip>
+
+Replace:
+- `<your-public-ip>` with your real EC2 IP
+
+---
