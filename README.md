@@ -21,6 +21,39 @@ Browser → Internet → AWS EC2 Instance → Nginx Web Server → Web Page Resp
 - SSH
 - AWS Security Groups
 
+ Architecture
+
+Internet
+↓
+AWS Security Group (Port 80)
+↓
+EC2 Instance (Ubuntu)
+↓
+Nginx
+↓
+Custom HTML Page
+
+Technologies Used
+- AWS EC2
+- Ubuntu Linux
+- Nginx
+- SSH
+- Security Groups
+
+Deployment Steps
+1. Launch EC2 instance
+2. Configure Security Groups
+3. Connect via SSH
+4. Install Nginx
+5. Deploy custom webpage
+6. Verify browser access
+
+Key Learning Outcomes
+- Linux server administration
+- Basic networking concepts
+- Web server deployment
+- AWS infrastructure fundamentals
+
 🚀 Steps Performed
 
  1. Launch EC2 Instance
