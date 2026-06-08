@@ -1,20 +1,20 @@
 AWS EC2 Nginx Web Server Deployment
 
-📌 Project Overview
+Project Overview
 This project demonstrates how to deploy a basic web server on an AWS EC2 instance using Ubuntu and Nginx. The server is made publicly accessible through AWS Security Group configuration.
 
-🎯 Objective
+Objective
 - Launch a virtual server on AWS EC2
 - Connect to the server using SSH
 - Install and run Nginx web server
 - Configure network access using AWS Security Groups
 - Host a web page accessible via public IP
 
-🧱 Architecture
+Architecture
 
 Browser → Internet → AWS EC2 Instance → Nginx Web Server → Web Page Response
 
-⚙️ Technologies Used
+Technologies Used
 - Amazon EC2
 - Ubuntu Linux
 - Nginx
@@ -54,7 +54,7 @@ Key Learning Outcomes
 - Web server deployment
 - AWS infrastructure fundamentals
 
-🚀 Steps Performed
+Steps Performed
 
  1. Launch EC2 Instance
 - Created an Ubuntu EC2 instance on AWS
@@ -66,5 +66,3 @@ ssh -i project1.pem ubuntu@<your-public-ip>
 
 Replace:
 - `<your-public-ip>` with your real EC2 IP
-
----
